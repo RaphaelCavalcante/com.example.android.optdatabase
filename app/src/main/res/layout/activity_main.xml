@@ -11,6 +11,7 @@
     tools:context="optdatabase.android.example.com.exampleoptdatabase.MainActivity">
 
     <TextView
+        android:id="@+id/number"
         android:layout_width="60dp"
         android:layout_height="120dp"
         android:text="0"
