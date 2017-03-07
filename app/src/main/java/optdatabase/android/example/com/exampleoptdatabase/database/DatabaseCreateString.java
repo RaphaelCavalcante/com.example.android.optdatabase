@@ -4,7 +4,7 @@ import optdatabase.android.example.com.exampleoptdatabase.contract.OptDatabaseCo
 public enum DatabaseCreateString {
     QUANTITY("create table "+
         QuantityEntry.TABLE_NAME+"("+
-        QuantityEntry._ID+" integer primary key autoincrement "+
+        QuantityEntry._ID+" integer primary key autoincrement, "+
         QuantityEntry.COLUMN_NAME_QUANTITY+" text not null);");
     private String create;
     DatabaseCreateString (String create){this.create=create;}
